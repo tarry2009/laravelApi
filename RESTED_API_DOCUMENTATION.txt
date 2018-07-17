@@ -1,0 +1,85 @@
+{
+   
+    "End Points": [
+      {
+        "request": {
+          "method": "GET",
+          "url": "http://tlg.local/api/users",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json"
+            },
+            {
+              "value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjFjZmZmNzViNzAyNzBkZGYwYzgwY2U1OTVmMGRmNTc2M2ExNmE4ZmQ4ZTlkYzk3ODljNmNmNTY2MjRjNzMyODk0ZWMyODMwY2EwYmVhODBmIn0.eyJhdWQiOiI0IiwianRpIjoiMWNmZmY3NWI3MDI3MGRkZjBjODBjZTU5NWYwZGY1NzYzYTE2YThmZDhlOWRjOTc4OWM2Y2Y1NjYyNGM3MzI4OTRlYzI4MzBjYTBiZWE4MGYiLCJpYXQiOjE1MjMyMDQxNzAsIm5iZiI6MTUyMzIwNDE3MCwiZXhwIjoxNTI0NTAwMTcwLCJzdWIiOiIxIiwic2NvcGVzIjpbIioiXX0.X_yighQ5_zCRz2rYLxpFumSoebqTMYb7Rh2OpDHzwZ92wQg0XNSnDBIIwSModKC4_YRoUQ_qXAMH31869X_QkEhwRis0_nFfrl5ESVtSHl8GOIi4CpRfAENHeeHss6JIsa2wqr_3wbPULBX4-7iP2al3QUfKBIWyjUnI1ChjDhxdC_8FXScmmd31rJsDPlNsPeLlZP_jrZ4gqE6t7cy8jbvg8oEQoMg1yRe_bpfX8WQwc0Ww9nOwMggegSuG0V7Y8BHy0LFJQ9v0BPifo7QIdZUvUdyM2_dehRLW-4MUqRrsCz2MMf9ImWN-CLmGxPWjZtbwUWS5E9AbOkk5trNeAEr3HkmtXWcvAx2JoCbknS7BBCfkgNrNQzWSut4szDKV9OWIEuQUGXyF9D2NRcLqLNZCRMb18cjt7fl8bmLbR8genaCdFOnDYY-FN9ZY-dahXZIB8EgLoUTRBILF8i9wGTL-gzIq_C0zrKuFP_0z7glU4sdoy9PJLqYNh4ww6gFfzUoh-avMyd9ETzgX2alBD6NItGotj5PItfys5iHijUna1QKAt201f9Gx_f7-9oNUhPk-7levR59QDnPK4cCUbry6BfV6hE_g-DjAS7QMjN1lNKFPlaxlJzL3Romr9SDLU3E-r_hx9Djd7oL6Ty11sy6cU0HmZw5c7ZdKj6JsI7Y",
+              "name": "Authorization"
+            }
+          ]
+        }
+      },
+      {
+        "request": {
+          "method": "GET",
+          "url": "http://api.local/api/v1/test",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {}
+          ]
+        }
+      },
+      {
+        "request": {
+          "method": "POST",
+          "url": "http://api.local/oauth/token",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {}
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "email",
+                "value": "oschmeler@example.org"
+              },
+              {
+                "name": "client_id",
+                "value": "4"
+              },
+              {
+                "name": "client_secret",
+                "value": "eVMGbhfF7m99NhtKVoGXvM6yIQ4t9ptXbj04P8b2"
+              },
+              {
+                "name": "grant_type",
+                "value": "password"
+              },
+              {
+                "name": "username",
+                "value": "admin@me.com"
+              },
+              {
+                "name": "password",
+                "value": "123456"
+              },
+              {
+                "name": "scope",
+                "value": "*"
+              }
+            ],
+            "text": "email=oschmeler@example.org&client_id=4&client_secret=eVMGbhfF7m99NhtKVoGXvM6yIQ4t9ptXbj04P8b2&grant_type=password&username=admin@me.com&password=123456&scope=*"
+          }
+        }
+      }
+    ]
+  }
